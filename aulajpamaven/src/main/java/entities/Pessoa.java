@@ -21,6 +21,10 @@ public class Pessoa implements Serializable {
 	//@Column(name="nomecompleto")
 	private String email;
 	
+	public Pessoa() {
+		
+	}
+	
 	public Pessoa(Integer id, String name, String email) {
 		super();
 		this.id = id;
